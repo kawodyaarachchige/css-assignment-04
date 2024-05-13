@@ -1,8 +1,43 @@
-.card-mchn{
-    max-width: 500px;
-    margin: auto;
+body{
+   background: radial-gradient(circle at top right, #e171a6, rgb(180, 58, 119),transparent 50%, transparent 100%) fixed !important;;
+    background-color: #2d0019!important;
+    height: fit-content!important;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
-.table{
-    max-width: 500px;
-    margin: auto;
+
+h1{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+
+}
+div{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+}
+a:hover{
+    color: deeppink;
 }
